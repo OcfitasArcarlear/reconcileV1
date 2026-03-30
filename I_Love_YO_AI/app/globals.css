@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-nunito), sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffe4e1 0%, #fff0f5 50%, #ffe4f0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
